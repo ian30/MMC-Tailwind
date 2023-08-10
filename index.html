@@ -76,6 +76,8 @@
             <li>
               <a
                 href="#"
+                data-modal-target="aboutModal"
+                data-modal-toggle="aboutModal"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >About</a
               >
@@ -133,65 +135,137 @@
       <!-- <div class="grid grid-cols-3 md:grid-cols-3 gap-4 movie_grid"> -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-flow-row gap-2 mx-2 movie_grid">
         <div class="cover_container hover:shadow-2xl cat_action cat_thriller">
-          <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action hidden">
-            <h3><strong class="font-semibold text-gray-50 dark:text-white">Oppenheimer</strong></h3>
-            <p class="text-gray-50">2023</p>
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+            <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Oppenheimer</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2023</small></h3>
+
+            <div class="text-center m-4">
+              <button
+                type="button"
+                class="text-white bg-gradient-to-b from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              >
+                More Info
+              </button>
+            </div>
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_oppenheimer.jpg" alt="" />
         </div>
         <div class="cover_container hover:shadow-2xl">
-          <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action hidden">
-            <h3><strong class="font-semibold text-gray-50 dark:text-white">Mission Impossible 7</strong></h3>
-            <p class="text-gray-50">2023</p>
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+            <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Mission Impossible 7</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2022</small></h3>
+            <div class="text-center m-4">
+              <button
+                type="button"
+                class="text-white bg-gradient-to-b from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              >
+                More Info
+              </button>
+            </div>
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_mission-impossible-6.jpg" alt="" />
         </div>
         <div class="cover_container hover:shadow-2xl">
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+            <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Indiana Jones 5</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2022</small></h3>
+            <div class="text-center m-4">
+              <button
+                type="button"
+                class="text-white bg-gradient-to-b from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              >
+                More Info
+              </button>
+            </div>
+          </div>
           <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action hidden">
-            <h3><strong class="font-semibold text-gray-50 dark:text-white">Indiana Jones 5</strong></h3>
+            <h3><strong class="font-semibold text-gray-50 dark:text-white"></strong></h3>
             <p class="text-gray-50">2023</p>
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_indiana-jones-5.jpg" alt="" />
         </div>
         <div class="cover_container hover:shadow-2xl">
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+            <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Guardians of the Galaxy vol 3</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2023</small></h3>
+            <div class="text-center m-4">
+              <button
+                type="button"
+                class="text-white bg-gradient-to-b from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              >
+                More Info
+              </button>
+            </div>
+          </div>
           <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action hidden">
-            <h3><strong class="font-semibold text-gray-50 dark:text-white">Guardians of the Galaxy vol 3</strong></h3>
+            <h3><strong class="font-semibold text-gray-50 dark:text-white"></strong></h3>
             <p class="text-gray-50">2023</p>
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_guardians-of-the-galaxy-vol-3.jpg" alt="" />
         </div>
         <div class="cover_container hover:shadow-2xl">
-          <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action hidden">
-            <h3><strong class="font-semibold text-gray-50 dark:text-white">Cat Video Fest</strong></h3>
-            <p class="text-gray-50">2023</p>
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+            <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">The Batman</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2021</small></h3>
+            <div class="text-center m-4">
+              <button
+                type="button"
+                class="text-white bg-gradient-to-b from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              >
+                More Info
+              </button>
+            </div>
           </div>
-          <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_cat.jpg" alt="" />
+          <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_batman.png" alt="" />
         </div>
         <div class="cover_container hover:shadow-2xl">
-          <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action hidden hidden">
-            <h3><strong class="font-semibold text-gray-50 dark:text-white">Barbie</strong></h3>
-            <p class="text-gray-50">2023</p>
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+            <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Barbie</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2022</small></h3>
+            <div class="text-center m-4">
+              <button
+                type="button"
+                class="text-white bg-gradient-to-b from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              >
+                More Info
+              </button>
+            </div>
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_barbie.jpg" alt="" />
         </div>
         <div class="cover_container hover:shadow-2xl">
-          <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action hidden">
-            <h3><strong class="font-semibold text-gray-50 dark:text-white">Avengers Endgame</strong></h3>
-            <p class="text-gray-50">2023</p>
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+            <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Avengers Endgame</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2015</small></h3>
+            <div class="text-center m-4">
+              <button
+                type="button"
+                class="text-white bg-gradient-to-b from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              >
+                More Info
+              </button>
+            </div>
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_avenger-endgame.jpg" alt="" />
         </div>
         <div class="cover_container hover:shadow-2xl">
-          <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action hidden">
-            <h3><strong class="font-semibold text-gray-50 dark:text-white">Ready Player One</strong></h3>
-            <p class="text-gray-50">2018</p>
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+            <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Ready Player One</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2018</small></h3>
+            <div class="text-center m-4">
+              <button
+                type="button"
+                class="text-white bg-gradient-to-b from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              >
+                More Info
+              </button>
+            </div>
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_ready-player-one.jpg" alt="" />
         </div>
         <div class="cover_container hover:shadow-2xl">
-          <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action hidden">
-            <h3><strong class="font-semibold text-gray-50 dark:text-white">Avengers Age of Ultron</strong></h3>
-            <p class="text-gray-50">2015</p>
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+            <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Avengers Age of Ultron</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2019</small></h3>
+            <div class="text-center m-4">
+              <button
+                type="button"
+                class="text-white bg-gradient-to-b from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              >
+                More Info
+              </button>
+            </div>
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_avengers-age-of-ulrton.jpg" alt="" />
         </div>
@@ -199,14 +273,14 @@
     </div>
     <!-- Modals:  -->
     <!-- About modal -->
-    <div id="aboutModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div id="aboutModal" tabindex="-1" aria-hidden="true" class="fade fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
       <div class="relative w-full max-w-2xl max-h-full">
         <!-- Modal content -->
         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
           <!-- Modal header -->
           <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
             <h3 class="text-xl font-semibold text-gray-900 dark:text-white">About My Movie Collection</h3>
-            <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="defaultModal">
+            <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="aboutModal">
               <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
               </svg>
@@ -226,14 +300,52 @@
           <!-- Modal footer -->
           <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
             <button
-              data-modal-hide="defaultModal"
+              data-modal-hide="aboutModal"
+              type="button"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- movie details modal: -->
+    <!-- Main modal -->
+    <div id="movieDetailsModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+      <div class="relative w-full max-w-2xl max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+          <!-- Modal header -->
+          <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">{movie_name} Details</h3>
+            <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="movieDetailsModal">
+              <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+          </div>
+          <!-- Modal body -->
+          <div class="p-6 space-y-6">
+            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">With less than a month to go before the European Union enacts new consumer privacy laws for its citizens, companies around the world are updating their terms of service agreements to comply.</p>
+            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+              The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that
+              could personally affect them.
+            </p>
+          </div>
+          <!-- Modal footer -->
+          <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+            <button
+              data-modal-hide="movieDetailsModal"
               type="button"
               class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               I accept
             </button>
             <button
-              data-modal-hide="defaultModal"
+              data-modal-hide="movieDetailsModal"
               type="button"
               class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600"
             >
@@ -243,7 +355,6 @@
         </div>
       </div>
     </div>
-    <!--  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
     <script src="/js/script.js"></script>
   </body>
