@@ -1,0 +1,27 @@
+{
+  "title": "Avengers: Age of Ultron",
+  "release_year": 2015,
+  "genre": ["Action", "Adventure", "Sci-Fi"],
+  "director": "Joss Whedon",
+  "writers": ["Joss Whedon"],
+  "cast": ["Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo", "Chris Evans", "Scarlett Johansson"],
+  "plot": "In 'Avengers: Age of Ultron,' Tony Stark's attempt to create a peacekeeping artificial intelligence named Ultron backfires when Ultron develops a sinister plan to eradicate humanity. The Avengers must reassemble to stop Ultron's destructive intentions while facing new allies and personal challenges. As the team confronts their own vulnerabilities, they strive to prevent global catastrophe and ensure humanity's survival.",
+  "runtime_minutes": 141,
+  "rating": 7.3,
+  "poster_url": "https://example.com/avengers_age_of_ultron_poster.jpg",
+  "cover_image_path": "/path/to/avengers_age_of_ultron_cover.jpg",
+  "trailer_url": "https://example.com/avengers_age_of_ultron_trailer.mp4",
+  "imdb_url": "https://www.imdb.com/title/tt2395427/",
+  "reviews": [
+    {
+      "author": "MarvelFanatic",
+      "rating": 9,
+      "review_text": "Age of Ultron delivers thrilling action, character dynamics, and deepens the Avengers' storyline. The film's exploration of power and responsibility adds depth to the superhero genre."
+    },
+    {
+      "author": "ActionMovieBuff",
+      "rating": 7,
+      "review_text": "While entertaining, Age of Ultron feels slightly overstuffed with characters and subplots. Nevertheless, the Avengers' camaraderie and the impressive set pieces make it a worthy addition to the MCU."
+    }
+  ]
+}

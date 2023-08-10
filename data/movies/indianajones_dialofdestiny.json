@@ -1,0 +1,27 @@
+{
+  "title": "Indiana Jones and the Dial of Destiny",
+  "release_year": 2022,
+  "genre": ["Action", "Adventure"],
+  "director": "Steven Spielberg",
+  "writers": ["David Koepp", "George Lucas"],
+  "cast": ["Harrison Ford", "Phoebe Waller-Bridge", "Mads Mikkelsen", "Antonio Banderas"],
+  "plot": "In 'Indiana Jones and the Dial of Destiny,' renowned archaeologist Indiana Jones embarks on a perilous journey to uncover the mysteries behind an ancient artifact known as the Dial of Destiny. With the fate of history hanging in the balance, Jones faces treacherous terrain, cunning adversaries, and heart-pounding action as he races against time to prevent the artifact from falling into the wrong hands.",
+  "runtime_minutes": 128,
+  "rating": 7.9,
+  "poster_url": "https://example.com/indiana_jones_dial_of_destiny_poster.jpg",
+  "cover_image_path": "/path/to/indiana_jones_dial_of_destiny_cover.jpg",
+  "trailer_url": "https://example.com/indiana_jones_dial_of_destiny_trailer.mp4",
+  "imdb_url": "https://www.imdb.com/title/tt8765432/",
+  "reviews": [
+    {
+      "author": "AdventureMovieFan",
+      "rating": 8,
+      "review_text": "A welcome return for Harrison Ford as Indiana Jones. The film captures the essence of the classic series with thrilling action and a sense of nostalgia."
+    },
+    {
+      "author": "ArchaeologyEnthusiast",
+      "rating": 7,
+      "review_text": "While not as groundbreaking as the original trilogy, Dial of Destiny offers a fun and entertaining adventure with impressive set pieces."
+    }
+  ]
+}

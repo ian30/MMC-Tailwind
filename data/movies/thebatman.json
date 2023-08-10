@@ -1,0 +1,27 @@
+{
+  "title": "The Batman",
+  "release_year": 2022,
+  "genre": ["Action", "Crime", "Drama"],
+  "director": "Matt Reeves",
+  "writers": ["Matt Reeves", "Peter Craig"],
+  "cast": ["Robert Pattinson", "Zoë Kravitz", "Paul Dano", "Colin Farrell", "Andy Serkis"],
+  "plot": "In 'The Batman,' a younger Bruce Wayne, portrayed by Robert Pattinson, takes on the mantle of Gotham City's Dark Knight. Set in a grittier and more realistic world, Batman encounters a series of gruesome crimes orchestrated by a mysterious and brutal adversary, the Riddler. As he delves deeper into the twisted minds of Gotham's criminals, Batman must confront his own demons and navigate the complexities of justice, while forming unexpected alliances and uncovering shocking truths.",
+  "runtime_minutes": 152,
+  "rating": 8.1,
+  "poster_url": "https://example.com/the_batman_poster.jpg",
+  "cover_image_path": "/path/to/the_batman_cover.jpg",
+  "trailer_url": "https://example.com/the_batman_trailer.mp4",
+  "imdb_url": "https://www.imdb.com/title/tt1877830/",
+  "reviews": [
+    {
+      "author": "BatmanFan",
+      "rating": 9,
+      "review_text": "The Batman is a dark and refreshing take on the caped crusader. Pattinson delivers a compelling performance, and the film's noir atmosphere adds depth to the iconic character."
+    },
+    {
+      "author": "DCUniverseEnthusiast",
+      "rating": 8,
+      "review_text": "Matt Reeves brings a grounded and intriguing approach to Batman. The film balances character exploration with gripping action, setting the stage for an exciting new era."
+    }
+  ]
+}

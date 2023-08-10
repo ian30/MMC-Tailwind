@@ -1,0 +1,27 @@
+{
+  "title": "Guardians of the Galaxy Vol. 3",
+  "release_year": 2023,
+  "genre": ["Action", "Adventure", "Sci-Fi"],
+  "director": "James Gunn",
+  "writers": ["James Gunn"],
+  "cast": ["Chris Pratt", "Zoe Saldana", "Dave Bautista", "Bradley Cooper", "Vin Diesel"],
+  "plot": "In 'Guardians of the Galaxy Vol. 3,' Peter Quill and his misfit team of intergalactic heroes face their greatest challenge yet when a long-lost family member reemerges, threatening the very fabric of the universe. As they traverse both familiar and uncharted realms, the Guardians must confront their pasts, forge new alliances, and ultimately band together to save reality itself.",
+  "runtime_minutes": 140,
+  "rating": 8.5,
+  "poster_url": "https://example.com/guardians_of_the_galaxy_vol_3_poster.jpg",
+  "cover_image_path": "/path/to/guardians_of_the_galaxy_vol_3_cover.jpg",
+  "trailer_url": "https://example.com/guardians_of_the_galaxy_vol_3_trailer.mp4",
+  "imdb_url": "https://www.imdb.com/title/tt7890123/",
+  "reviews": [
+    {
+      "author": "SciFiMovieEnthusiast",
+      "rating": 9,
+      "review_text": "James Gunn delivers another cosmic hit with Vol. 3. The characters shine, the humor is on point, and the emotional depth surprises."
+    },
+    {
+      "author": "MarvelFanatic",
+      "rating": 8,
+      "review_text": "The Guardians' charm remains intact in this thrilling installment. The film strikes a balance between action-packed sequences and heartfelt moments."
+    }
+  ]
+}

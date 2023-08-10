@@ -1,0 +1,27 @@
+{
+  "title": "Ready Player One",
+  "release_year": 2018,
+  "genre": ["Action", "Adventure", "Sci-Fi"],
+  "director": "Steven Spielberg",
+  "writers": ["Zak Penn", "Ernest Cline"],
+  "cast": ["Tye Sheridan", "Olivia Cooke", "Ben Mendelsohn", "Mark Rylance"],
+  "plot": "In 'Ready Player One,' the year is 2045, and the world is in chaos. People escape their reality by immersing themselves in the virtual reality universe of the OASIS. When its creator passes away, he leaves behind a challenge: whoever finds the hidden Easter egg within the OASIS will inherit his vast fortune and control of the OASIS itself. Wade Watts, known by his avatar Parzival, embarks on a thrilling quest that leads to a high-stakes adventure filled with nostalgia, danger, and unexpected revelations.",
+  "runtime_minutes": 140,
+  "rating": 7.5,
+  "poster_url": "https://example.com/ready_player_one_poster.jpg",
+  "cover_image_path": "/path/to/ready_player_one_cover.jpg",
+  "trailer_url": "https://example.com/ready_player_one_trailer.mp4",
+  "imdb_url": "https://www.imdb.com/title/tt1677720/",
+  "reviews": [
+    {
+      "author": "SciFiGeek",
+      "rating": 8,
+      "review_text": "Ready Player One is a delightful celebration of pop culture and virtual reality. Spielberg's direction shines as the film seamlessly blends nostalgia and futuristic storytelling."
+    },
+    {
+      "author": "GamerEnthusiast",
+      "rating": 7,
+      "review_text": "While the visuals and references are a treat for fans, the story occasionally loses focus. Nonetheless, the film's energy and inventive world-building make for an entertaining ride."
+    }
+  ]
+}

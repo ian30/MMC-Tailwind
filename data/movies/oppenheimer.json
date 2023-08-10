@@ -1,0 +1,27 @@
+{
+  "title": "Oppenheimer",
+  "release_year": 2023,
+  "genre": ["Drama", "Biography", "Historical"],
+  "director": "Christopher Nolan",
+  "writers": ["Christopher Nolan", "Emma Thomas"],
+  "cast": ["Cillian Murphy", "Rebecca Ferguson", "Tom Hardy", "Michael Caine"],
+  "plot": "Oppenheimer is a gripping biographical drama that chronicles the life of J. Robert Oppenheimer, the brilliant physicist and leader of the Manhattan Project during World War II. The film delves into his struggles with the moral implications of creating the atomic bomb, his complex relationships with fellow scientists, and the profound impact of his contributions on modern history.",
+  "runtime_minutes": 150,
+  "rating": 8.6,
+  "poster_url": "https://example.com/oppenheimer_poster.jpg",
+  "cover_image_path": "/path/to/cover_image.jpg",
+  "trailer_url": "https://example.com/oppenheimer_trailer.mp4",
+  "imdb_url": "https://www.imdb.com/title/tt1234567/",
+  "reviews": [
+    {
+      "author": "FilmFan123",
+      "rating": 9,
+      "review_text": "A thought-provoking masterpiece that explores the human side of scientific achievement. Nolan's direction and Murphy's performance shine."
+    },
+    {
+      "author": "Cinephile22",
+      "rating": 8,
+      "review_text": "Oppenheimer offers a captivating glimpse into the life of a complex figure. The cast delivers, though the pacing feels slow at times."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Mission: Impossible - Dead Reckoning",
+  "release_year": 2023,
+  "genre": ["Action", "Adventure", "Thriller"],
+  "director": "Emily Blunt",
+  "writers": ["John Doe", "Jane Smith"],
+  "cast": [
+    "Emily Blunt",
+    "Henry Cavill",
+    "Ving Rhames",
+    "Angela Bassett"
+  ],
+  "plot": "In 'Mission: Impossible - Dead Reckoning,' Ethan Hunt and his team are faced with an unprecedented crisis when a powerful rogue organization threatens global stability. As they race against time, the IMF must uncover a web of deception, uncovering shocking betrayals and intense action sequences across the globe, in their mission to neutralize the threat and restore order.",
+  "runtime_minutes": 142,
+  "rating": 8.2,
+  "poster_url": "https://example.com/mission_impossible_dead_reckoning_poster.jpg",
+  "cover_image_path": "/path/to/mission_impossible_dead_reckoning_cover.jpg",
+  "trailer_url": "https://example.com/mission_impossible_dead_reckoning_trailer.mp4",
+  "imdb_url": "https://www.imdb.com/title/tt9876543/",
+  "reviews": [
+    {
+      "author": "ActionMovieBuff",
+      "rating": 9,
+      "review_text": "Emily Blunt's directorial debut in the Mission: Impossible series is a triumph. The film is a rollercoaster of thrilling sequences and unexpected turns."
+    },
+    {
+      "author": "SpyFilmEnthusiast",
+      "rating": 8,
+      "review_text": "Dead Reckoning delivers intense action, intricate espionage, and a standout performance from Henry Cavill. A must-watch for fans of the genre."
+    }
+  ]
+}

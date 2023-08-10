@@ -1,0 +1,27 @@
+{
+  "title": "Avengers: Endgame",
+  "release_year": 2019,
+  "genre": ["Action", "Adventure", "Sci-Fi"],
+  "directors": ["Anthony Russo", "Joe Russo"],
+  "writers": ["Christopher Markus", "Stephen McFeely"],
+  "cast": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson", "Mark Ruffalo", "Chris Hemsworth"],
+  "plot": "In 'Avengers: Endgame,' the remaining Avengers must gather their strength and embark on a perilous journey to undo the devastating effects of Thanos' snap. Faced with impossible odds, the heroes must reunite, make sacrifices, and confront their pasts to save not only their fallen comrades but also the entire universe.",
+  "runtime_minutes": 181,
+  "rating": 8.4,
+  "poster_url": "https://example.com/avengers_endgame_poster.jpg",
+  "cover_image_path": "../cover/xl_avenger-endgame.jpg",
+  "trailer_url": "https://example.com/avengers_endgame_trailer.mp4",
+  "imdb_url": "https://www.imdb.com/title/tt4154796/",
+  "reviews": [
+    {
+      "author": "ComicBookFanatic",
+      "rating": 9,
+      "review_text": "Avengers: Endgame delivers an epic conclusion to the Infinity Saga. The action is spectacular, emotions run high, and the payoff is immensely satisfying."
+    },
+    {
+      "author": "MarvelEnthusiast",
+      "rating": 8,
+      "review_text": "A fitting end to a monumental saga. The film balances intense action with character-driven moments, giving proper closure to beloved heroes."
+    }
+  ]
+}
