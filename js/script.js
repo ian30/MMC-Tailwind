@@ -38,3 +38,4 @@ showAction.addEventListener("click", () => {
   //get all movies with class "cat_action"
   document.querySelectorAll(".action").addClass("hidden");
 });
+// some comment test
