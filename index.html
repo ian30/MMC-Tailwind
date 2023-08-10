@@ -97,6 +97,13 @@
     <div class="container my-10 mx-auto">
       <div class="flex items-center justify-center py-4 md:py-8 flex-wrap">
         <button
+          id="cat_showAll"
+          type="button"
+          class="text-blue-700 hover:text-white border border-blue-600 bg-white hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900 dark:focus:ring-blue-800"
+        >
+          Hide / Show All
+        </button>
+        <button
           id="cat_allCats"
           type="button"
           class="text-blue-700 hover:text-white border border-blue-600 bg-white hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900 dark:focus:ring-blue-800"
@@ -134,7 +141,7 @@
       </div>
       <!-- <div class="grid grid-cols-3 md:grid-cols-3 gap-4 movie_grid"> -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-flow-row gap-2 mx-2 movie_grid">
-        <div class="cover_container hover:shadow-2xl cat_action cat_thriller">
+        <div class="cover_container hover:shadow-2xl movie-card cat_action cat_thriller">
           <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Oppenheimer</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2023</small></h3>
 
@@ -149,7 +156,7 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_oppenheimer.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl">
+        <div class="cover_container hover:shadow-2xl movie-card">
           <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Mission Impossible 7</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2022</small></h3>
             <div class="text-center m-4">
@@ -163,7 +170,7 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_mission-impossible-6.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl">
+        <div class="cover_container hover:shadow-2xl movie-card">
           <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Indiana Jones 5</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2022</small></h3>
             <div class="text-center m-4">
@@ -181,7 +188,7 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_indiana-jones-5.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl">
+        <div class="cover_container hover:shadow-2xl movie-card">
           <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Guardians of the Galaxy vol 3</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2023</small></h3>
             <div class="text-center m-4">
@@ -199,7 +206,7 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_guardians-of-the-galaxy-vol-3.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl">
+        <div class="cover_container hover:shadow-2xl movie-card">
           <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">The Batman</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2021</small></h3>
             <div class="text-center m-4">
@@ -213,7 +220,7 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_batman.png" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl">
+        <div class="cover_container hover:shadow-2xl movie-card">
           <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Barbie</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2022</small></h3>
             <div class="text-center m-4">
@@ -227,7 +234,7 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_barbie.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl">
+        <div class="cover_container hover:shadow-2xl movie-card">
           <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Avengers Endgame</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2015</small></h3>
             <div class="text-center m-4">
@@ -241,7 +248,7 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_avenger-endgame.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl">
+        <div class="cover_container hover:shadow-2xl movie-card">
           <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Ready Player One</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2018</small></h3>
             <div class="text-center m-4">
@@ -255,7 +262,7 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_ready-player-one.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl">
+        <div class="cover_container hover:shadow-2xl movie-card">
           <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Avengers Age of Ultron</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2019</small></h3>
             <div class="text-center m-4">
