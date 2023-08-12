@@ -11,6 +11,14 @@ fetch("../data/movies/avengers_endgame.json")
     htmlElement.innerHTML = `
       <h2>${jsonData.title}</h2>
       <p>${jsonData.description}</p>
+      <p><strong>Length:</strong> ${data.length} minutes</p>
+      <p><strong>Release Year:</strong> ${data.release_year}</p>
+      <p><strong>Director:</strong> ${data.director}</p>
+      <p><strong>Cast:</strong> ${data.cast}</p>
+      <p><strong>Producer:</strong> ${data.producer}</p>
+      <p><strong>Genre:</strong> ${data.genre}</p>
+      <p><strong>Synopsis:</strong> ${data.synopsis}</p>
+      <img src="${data.poster}" alt="Movie Poster" class="mt-4">
     `;
 
     // Append the HTML element to the container

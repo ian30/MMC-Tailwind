@@ -84,6 +84,16 @@
             </li>
             <li>
               <a
+                data-modal-target="addNewMovieModal"
+                data-modal-toggle="addNewMovieModal"
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                id="add_new_movie"
+                >Add New Movie</a
+              >
+            </li>
+            <li>
+              <a
                 href="#"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >Settings</a
@@ -93,8 +103,9 @@
         </div>
       </div>
     </nav>
-    <!-- Navigation -->
+
     <div class="container my-10 mx-auto">
+      <!-- Filters -->
       <div class="flex items-center justify-center py-4 md:py-8 flex-wrap">
         <button
           id="cat_showAll"
@@ -139,12 +150,11 @@
           Thrillers
         </button>
       </div>
-      <!-- <div class="grid grid-cols-3 md:grid-cols-3 gap-4 movie_grid"> -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-flow-row gap-2 mx-2 movie_grid">
-        <div class="cover_container hover:shadow-2xl movie-card cat_action cat_thriller">
-          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+      <!-- movies grid begins here -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-flow-row gap-2 mx-2 movie_grid">
+        <div class="cover_container hover:shadow-2xl movie-card cat_thriller">
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Oppenheimer</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2023</small></h3>
-
             <div class="text-center m-4">
               <button
                 type="button"
@@ -156,8 +166,8 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_oppenheimer.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl movie-card">
-          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+        <div class="cover_container hover:shadow-2xl movie-card cat_action">
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Mission Impossible 7</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2022</small></h3>
             <div class="text-center m-4">
               <button
@@ -170,8 +180,8 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_mission-impossible-6.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl movie-card">
-          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+        <div class="cover_container hover:shadow-2xl movie-card cat_action">
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Indiana Jones 5</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2022</small></h3>
             <div class="text-center m-4">
               <button
@@ -182,14 +192,14 @@
               </button>
             </div>
           </div>
-          <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action hidden">
+          <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2">
             <h3><strong class="font-semibold text-gray-50 dark:text-white"></strong></h3>
             <p class="text-gray-50">2023</p>
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_indiana-jones-5.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl movie-card">
-          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+        <div class="cover_container hover:shadow-2xl movie-card cat_comedy">
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Guardians of the Galaxy vol 3</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2023</small></h3>
             <div class="text-center m-4">
               <button
@@ -200,14 +210,14 @@
               </button>
             </div>
           </div>
-          <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action hidden">
+          <div class="overlay absolute bg-black w-full h-1/2 bottom-0 bg-opacity-60 p-2 hidden">
             <h3><strong class="font-semibold text-gray-50 dark:text-white"></strong></h3>
             <p class="text-gray-50">2023</p>
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_guardians-of-the-galaxy-vol-3.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl movie-card">
-          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+        <div class="cover_container hover:shadow-2xl movie-card cat_action">
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">The Batman</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2021</small></h3>
             <div class="text-center m-4">
               <button
@@ -220,8 +230,8 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_batman.png" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl movie-card">
-          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+        <div class="cover_container hover:shadow-2xl movie-card cat_comedy">
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Barbie</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2022</small></h3>
             <div class="text-center m-4">
               <button
@@ -234,8 +244,8 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_barbie.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl movie-card">
-          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+        <div class="cover_container hover:shadow-2xl movie-card cat_action">
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Avengers Endgame</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2015</small></h3>
             <div class="text-center m-4">
               <button
@@ -248,8 +258,8 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_avenger-endgame.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl movie-card">
-          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+        <div class="cover_container hover:shadow-2xl movie-card cat_scifi">
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Ready Player One</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2018</small></h3>
             <div class="text-center m-4">
               <button
@@ -262,8 +272,8 @@
           </div>
           <img class="h-auto max-w-full rounded-lg" src="/data/cover/xl_ready-player-one.jpg" alt="" />
         </div>
-        <div class="cover_container hover:shadow-2xl movie-card">
-          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2 cat_thriller cat_action">
+        <div class="cover_container hover:shadow-2xl movie-card cat_action">
+          <div class="overlay absolute bg-black w-full h-32 bottom-0 bg-opacity-60 p-2">
             <h3 class="text-center"><strong class="font-semibold text-white dark:text-white">Avengers Age of Ultron</strong><small class="ml-2 text-gray-100 bg-blue-500 rounded py-1 px-2">2019</small></h3>
             <div class="text-center m-4">
               <button
@@ -312,6 +322,76 @@
               class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               OK
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- Add New Movie Modal: -->
+    <div id="addNewMovieModal" tabindex="-1" aria-hidden="true" class="fade fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+      <div class="relative w-full max-w-2xl max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+          <!-- Modal header -->
+          <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Add New Movie to Movie Collection:</h3>
+            <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="addNewMovieModal">
+              <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+              </svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+          </div>
+          <!-- Modal body -->
+          <div class="container mx-auto p-8">
+            <form action="process_form.php" method="POST" class="bg-white p-6 rounded shadow-md">
+              <label for="movie_name" class="block mb-2 font-medium">Movie Name:</label>
+              <input type="text" id="movie_name" name="movie_name" required class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500" />
+
+              <label for="length" class="block mt-4 mb-2 font-medium">Length (minutes):</label>
+              <input type="number" id="length" name="length" required class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500" />
+
+              <label for="release_year" class="block mt-4 mb-2 font-medium">Release Year:</label>
+              <input type="number" id="release_year" name="release_year" required class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500" />
+
+              <label for="director" class="block mt-4 mb-2 font-medium">Director:</label>
+              <input type="text" id="director" name="director" required class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500" />
+
+              <label for="cast" class="block mt-4 mb-2 font-medium">Cast (comma-separated):</label>
+              <input type="text" id="cast" name="cast" required class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500" />
+
+              <label for="producer" class="block mt-4 mb-2 font-medium">Producer:</label>
+              <input type="text" id="producer" name="producer" required class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500" />
+
+              <label for="genre" class="block mt-4 mb-2 font-medium">Genre:</label>
+              <select id="genre" name="genre" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500">
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="horror">Horror</option>
+                <option value="romance">Romance</option>
+                <option value="thriller">Thriller</option>
+              </select>
+
+              <label for="synopsis" class="block mt-4 mb-2 font-medium">Synopsis:</label>
+              <textarea id="synopsis" name="synopsis" rows="4" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500" required></textarea>
+
+              <label for="poster" class="block mt-4 mb-2 font-medium">Movie Poster:</label>
+              <input type="file" id="poster" name="poster" accept="image/*" class="w-full" />
+
+              <button type="submit" class="mt-6 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Submit</button>
+            </form>
+          </div>
+          <!-- Modal footer -->
+          <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+            <button
+              data-modal-hide="addNewMovieModal"
+              type="button"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Save
             </button>
           </div>
         </div>
